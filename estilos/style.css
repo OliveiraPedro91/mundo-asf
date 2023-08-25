@@ -8,3 +8,71 @@ root {
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-destaque: 'slubby', sans-serif; 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url('../imagens/background.jpg'); /* Substitua com o caminho para sua imagem */
+    background-size: cover; /* Para ajustar a imagem ao tamanho da janela de visualização */
+    background-repeat: no-repeat; /* Para evitar repetição da imagem */
+    background-attachment: fixed; /* Fixa a imagem, para que ela não role com a página */
+}
+header{
+    background-color: rgba(255, 255, 255, 0.800);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+h1{
+    font-family: 'Righteous', cursive;
+}
+
+main > aside > h3{
+    font-family: 'Sarala';
+    background-color: #e8a210;
+    text-align: center;
+    color: white;
+}
+aside{
+
+}
+h3{
+    font-family: 'Sarala';
+}
+nav{
+    font-family: 'Sarala';
+    gap: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    font-family: 'Sarala';
+    color: #fff2e7;
+    font-weight: 250;
+    padding: 3px;
+}
+a:hover{
+    background-color: rgba(255, 255, 0, 0.384);
+    border-radius: 10px;
+    padding: 3px;
+}
+main{
+    background-color: white;
+    max-width: 90vw;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+    
